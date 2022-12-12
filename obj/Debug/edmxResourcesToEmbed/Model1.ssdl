@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MingSuModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Activity">
+    <Key>
+      <PropertyRef Name="ActivityID" />
+    </Key>
+    <Property Name="ActivityID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ActivityName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ActivityDate" Type="datetime" />
+    <Property Name="ActivityInfo" Type="nvarchar(max)" />
+    <Property Name="ActivityCapacity" Type="int" />
+    <Property Name="ActivityStatus" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ActivityReference">
+    <Key>
+      <PropertyRef Name="ActivityReferenceID" />
+    </Key>
+    <Property Name="ActivityID" Type="int" Nullable="false" />
+    <Property Name="OrderID" Type="int" Nullable="false" />
+    <Property Name="ActivityReferenceID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Add">
+    <Key>
+      <PropertyRef Name="AddID" />
+    </Key>
+    <Property Name="AddID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AddName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="AddPrice" Type="money" Nullable="false" />
+    <Property Name="AddCategoryID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AddCatergory">
+    <Key>
+      <PropertyRef Name="AddCatergoryID" />
+    </Key>
+    <Property Name="AddCatergoryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AddCatergoryName" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AddReference">
+    <Key>
+      <PropertyRef Name="AddReferenceID" />
+    </Key>
+    <Property Name="AddID" Type="int" Nullable="false" />
+    <Property Name="OrderID" Type="int" Nullable="false" />
+    <Property Name="AddReferenceID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="AdminID" />
+    </Key>
+    <Property Name="AdminID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MemberID" Type="int" Nullable="false" />
+    <Property Name="AdminInfo" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AdminReference">
+    <Key>
+      <PropertyRef Name="AdminReferenceID" />
+    </Key>
+    <Property Name="AdminID" Type="int" Nullable="false" />
+    <Property Name="RoomID" Type="int" Nullable="false" />
+    <Property Name="AdminReferenceID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="City">
+    <Key>
+      <PropertyRef Name="CityID" />
+    </Key>
+    <Property Name="CityID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CityName" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Comment">
+    <Key>
+      <PropertyRef Name="CommentID" />
+    </Key>
+    <Property Name="CommentID" Type="int" Nullable="false" />
+    <Property Name="RoomID" Type="int" Nullable="false" />
+    <Property Name="CommentPoint" Type="int" />
+    <Property Name="CommentDetail" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Discount">
+    <Key>
+      <PropertyRef Name="RoomDiscountID" />
+    </Key>
+    <Property Name="RoomDiscountID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DiscountName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="DiscountInfo" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Equipment">
+    <Key>
+      <PropertyRef Name="EquipmentID" />
+    </Key>
+    <Property Name="EquipmentID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EquipmentName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="EquipmentCatergoryID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EquipmentCatergory">
+    <Key>
+      <PropertyRef Name="EquipmentCatergoryID" />
+    </Key>
+    <Property Name="EquipmentCatergoryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EquipmentCatergoryName" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EquipmentReference">
+    <Key>
+      <PropertyRef Name="EquipmentReferenceID" />
+    </Key>
+    <Property Name="EquipmentID" Type="int" Nullable="false" />
+    <Property Name="RoomID" Type="int" Nullable="false" />
+    <Property Name="EquipmentReferenceID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Image">
+    <Key>
+      <PropertyRef Name="ImageID" />
+    </Key>
+    <Property Name="ImageID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Image" Type="varbinary(max)" />
+    <Property Name="ImageCaption" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="ImageReference">
+    <Key>
+      <PropertyRef Name="ImageReferenceID" />
+    </Key>
+    <Property Name="ImageID" Type="int" Nullable="false" />
+    <Property Name="RoomID" Type="int" Nullable="false" />
+    <Property Name="ImageReferenceID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Member">
+    <Key>
+      <PropertyRef Name="MemberID" />
+    </Key>
+    <Property Name="MemberID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MemberAccount" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="MemberPassword" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="MemberName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="BirthDate" Type="datetime" Nullable="false" />
+    <Property Name="MemberPhone" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="MemberEmail" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CityID" Type="int" Nullable="false" />
+    <Property Name="MemberImage" Type="varbinary(max)" />
+    <Property Name="Authority" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="OrderID" />
+    </Key>
+    <Property Name="OrderID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OrderRemark" Type="nvarchar(max)" />
+    <Property Name="MemberID" Type="int" Nullable="false" />
+    <Property Name="OrderstatusID" Type="int" Nullable="false" />
+    <Property Name="RoomID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="OrderDetails">
+    <Key>
+      <PropertyRef Name="OrderDetailID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="OrderDetailID" Type="int" Nullable="false" />
+    <Property Name="OrderID" Type="int" Nullable="false" />
+    <Property Name="RoomID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OrderPrice" Type="money" Nullable="false" />
+    <Property Name="RoomDiscountID" Type="int" />
+    <Property Name="OrderStartDate" Type="datetime" Nullable="false" />
+    <Property Name="OrderEndDate" Type="datetime" Nullable="false" />
+    <Property Name="PayID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="OrderStatus">
+    <Key>
+      <PropertyRef Name="OrderstatusID" />
+    </Key>
+    <Property Name="OrderstatusID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OrderstatusContent" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Payment">
+    <Key>
+      <PropertyRef Name="PayID" />
+    </Key>
+    <Property Name="PayID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Payment" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Room">
+    <Key>
+      <PropertyRef Name="RoomID" />
+    </Key>
+    <Property Name="RoomID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RoomName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="RoomPrice" Type="money" Nullable="false" />
+    <Property Name="RoomIntrodution" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="MemberID" Type="int" Nullable="false" />
+    <Property Name="RoomstatusID" Type="int" Nullable="false" />
+    <Property Name="Address" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime2" Precision="7" />
+  </EntityType>
+  <EntityType Name="RoomStatus">
+    <Key>
+      <PropertyRef Name="RoomstatusID" />
+    </Key>
+    <Property Name="RoomstatusID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StatusContent" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_ActivityReference_Activity">
+    <End Role="Activity" Type="Self.Activity" Multiplicity="1" />
+    <End Role="ActivityReference" Type="Self.ActivityReference" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Activity">
+        <PropertyRef Name="ActivityID" />
+      </Principal>
+      <Dependent Role="ActivityReference">
+        <PropertyRef Name="ActivityID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ActivityReference_Order">
+    <End Role="Order" Type="Self.Order" Multiplicity="1" />
+    <End Role="ActivityReference" Type="Self.ActivityReference" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Order">
+        <PropertyRef Name="OrderID" />
+      </Principal>
+      <Dependent Role="ActivityReference">
+        <PropertyRef Name="OrderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Add_AddCatergory">
+    <End Role="AddCatergory" Type="Self.AddCatergory" Multiplicity="1" />
+    <End Role="Add" Type="Self.Add" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AddCatergory">
+        <PropertyRef Name="AddCatergoryID" />
+      </Principal>
+      <Dependent Role="Add">
+        <PropertyRef Name="AddCategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AddReference_Add">
+    <End Role="Add" Type="Self.Add" Multiplicity="1" />
+    <End Role="AddReference" Type="Self.AddReference" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Add">
+        <PropertyRef Name="AddID" />
+      </Principal>
+      <Dependent Role="AddReference">
+        <PropertyRef Name="AddID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AddReference_Order">
+    <End Role="Order" Type="Self.Order" Multiplicity="1" />
+    <End Role="AddReference" Type="Self.AddReference" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Order">
+        <PropertyRef Name="OrderID" />
+      </Principal>
+      <Dependent Role="AddReference">
+        <PropertyRef Name="OrderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Admin_Member">
+    <End Role="Member" Type="Self.Member" Multiplicity="1" />
+    <End Role="Admin" Type="Self.Admin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Member">
+        <PropertyRef Name="MemberID" />
+      </Principal>
+      <Dependent Role="Admin">
+        <PropertyRef Name="MemberID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AdminReference_Admin">
+    <End Role="Admin" Type="Self.Admin" Multiplicity="1" />
+    <End Role="AdminReference" Type="Self.AdminReference" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Admin">
+        <PropertyRef Name="AdminID" />
+      </Principal>
+      <Dependent Role="AdminReference">
+        <PropertyRef Name="AdminID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AdminReference_Room">
+    <End Role="Room" Type="Self.Room" Multiplicity="1" />
+    <End Role="AdminReference" Type="Self.AdminReference" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Room">
+        <PropertyRef Name="RoomID" />
+      </Principal>
+      <Dependent Role="AdminReference">
+        <PropertyRef Name="RoomID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Comment_RoomStyle">
+    <End Role="Room" Type="Self.Room" Multiplicity="1" />
+    <End Role="Comment" Type="Self.Comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Room">
+        <PropertyRef Name="RoomID" />
+      </Principal>
+      <Dependent Role="Comment">
+        <PropertyRef Name="RoomID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Equipment_EquipmentCatergory">
+    <End Role="EquipmentCatergory" Type="Self.EquipmentCatergory" Multiplicity="1" />
+    <End Role="Equipment" Type="Self.Equipment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EquipmentCatergory">
+        <PropertyRef Name="EquipmentCatergoryID" />
+      </Principal>
+      <Dependent Role="Equipment">
+        <PropertyRef Name="EquipmentCatergoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EquipmentReference_Equipment">
+    <End Role="Equipment" Type="Self.Equipment" Multiplicity="1" />
+    <End Role="EquipmentReference" Type="Self.EquipmentReference" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Equipment">
+        <PropertyRef Name="EquipmentID" />
+      </Principal>
+      <Dependent Role="EquipmentReference">
+        <PropertyRef Name="EquipmentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EquipmentReference_Room">
+    <End Role="Room" Type="Self.Room" Multiplicity="1" />
+    <End Role="EquipmentReference" Type="Self.EquipmentReference" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Room">
+        <PropertyRef Name="RoomID" />
+      </Principal>
+      <Dependent Role="EquipmentReference">
+        <PropertyRef Name="RoomID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ImageReference_Image">
+    <End Role="Image" Type="Self.Image" Multiplicity="1" />
+    <End Role="ImageReference" Type="Self.ImageReference" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Image">
+        <PropertyRef Name="ImageID" />
+      </Principal>
+      <Dependent Role="ImageReference">
+        <PropertyRef Name="ImageID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ImageReference_Room">
+    <End Role="Room" Type="Self.Room" Multiplicity="1" />
+    <End Role="ImageReference" Type="Self.ImageReference" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Room">
+        <PropertyRef Name="RoomID" />
+      </Principal>
+      <Dependent Role="ImageReference">
+        <PropertyRef Name="RoomID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Member_City">
+    <End Role="City" Type="Self.City" Multiplicity="1" />
+    <End Role="Member" Type="Self.Member" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="City">
+        <PropertyRef Name="CityID" />
+      </Principal>
+      <Dependent Role="Member">
+        <PropertyRef Name="CityID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Order_Member">
+    <End Role="Member" Type="Self.Member" Multiplicity="1" />
+    <End Role="Order" Type="Self.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Member">
+        <PropertyRef Name="MemberID" />
+      </Principal>
+      <Dependent Role="Order">
+        <PropertyRef Name="MemberID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Order_OrderStatus">
+    <End Role="OrderStatus" Type="Self.OrderStatus" Multiplicity="1" />
+    <End Role="Order" Type="Self.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrderStatus">
+        <PropertyRef Name="OrderstatusID" />
+      </Principal>
+      <Dependent Role="Order">
+        <PropertyRef Name="OrderstatusID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Order_Room">
+    <End Role="Room" Type="Self.Room" Multiplicity="1" />
+    <End Role="Order" Type="Self.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Room">
+        <PropertyRef Name="RoomID" />
+      </Principal>
+      <Dependent Role="Order">
+        <PropertyRef Name="RoomID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderDetails_Discount">
+    <End Role="Discount" Type="Self.Discount" Multiplicity="0..1" />
+    <End Role="OrderDetails" Type="Self.OrderDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Discount">
+        <PropertyRef Name="RoomDiscountID" />
+      </Principal>
+      <Dependent Role="OrderDetails">
+        <PropertyRef Name="RoomDiscountID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderDetails_Order">
+    <End Role="Order" Type="Self.Order" Multiplicity="1" />
+    <End Role="OrderDetails" Type="Self.OrderDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Order">
+        <PropertyRef Name="OrderID" />
+      </Principal>
+      <Dependent Role="OrderDetails">
+        <PropertyRef Name="OrderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderDetails_Payment">
+    <End Role="Payment" Type="Self.Payment" Multiplicity="1" />
+    <End Role="OrderDetails" Type="Self.OrderDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Payment">
+        <PropertyRef Name="PayID" />
+      </Principal>
+      <Dependent Role="OrderDetails">
+        <PropertyRef Name="PayID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Room_RoomStatus">
+    <End Role="RoomStatus" Type="Self.RoomStatus" Multiplicity="1" />
+    <End Role="Room" Type="Self.Room" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RoomStatus">
+        <PropertyRef Name="RoomstatusID" />
+      </Principal>
+      <Dependent Role="Room">
+        <PropertyRef Name="RoomstatusID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MingSuModelStoreContainer">
+    <EntitySet Name="Activity" EntityType="Self.Activity" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ActivityReference" EntityType="Self.ActivityReference" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Add" EntityType="Self.Add" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AddCatergory" EntityType="Self.AddCatergory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AddReference" EntityType="Self.AddReference" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Admin" EntityType="Self.Admin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AdminReference" EntityType="Self.AdminReference" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="City" EntityType="Self.City" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Comment" EntityType="Self.Comment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Discount" EntityType="Self.Discount" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Equipment" EntityType="Self.Equipment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EquipmentCatergory" EntityType="Self.EquipmentCatergory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EquipmentReference" EntityType="Self.EquipmentReference" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Image" EntityType="Self.Image" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ImageReference" EntityType="Self.ImageReference" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Member" EntityType="Self.Member" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Order" EntityType="Self.Order" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OrderDetails" EntityType="Self.OrderDetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OrderStatus" EntityType="Self.OrderStatus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Payment" EntityType="Self.Payment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Room" EntityType="Self.Room" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RoomStatus" EntityType="Self.RoomStatus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_ActivityReference_Activity" Association="Self.FK_ActivityReference_Activity">
+      <End Role="Activity" EntitySet="Activity" />
+      <End Role="ActivityReference" EntitySet="ActivityReference" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ActivityReference_Order" Association="Self.FK_ActivityReference_Order">
+      <End Role="Order" EntitySet="Order" />
+      <End Role="ActivityReference" EntitySet="ActivityReference" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Add_AddCatergory" Association="Self.FK_Add_AddCatergory">
+      <End Role="AddCatergory" EntitySet="AddCatergory" />
+      <End Role="Add" EntitySet="Add" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AddReference_Add" Association="Self.FK_AddReference_Add">
+      <End Role="Add" EntitySet="Add" />
+      <End Role="AddReference" EntitySet="AddReference" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AddReference_Order" Association="Self.FK_AddReference_Order">
+      <End Role="Order" EntitySet="Order" />
+      <End Role="AddReference" EntitySet="AddReference" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Admin_Member" Association="Self.FK_Admin_Member">
+      <End Role="Member" EntitySet="Member" />
+      <End Role="Admin" EntitySet="Admin" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AdminReference_Admin" Association="Self.FK_AdminReference_Admin">
+      <End Role="Admin" EntitySet="Admin" />
+      <End Role="AdminReference" EntitySet="AdminReference" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AdminReference_Room" Association="Self.FK_AdminReference_Room">
+      <End Role="Room" EntitySet="Room" />
+      <End Role="AdminReference" EntitySet="AdminReference" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Comment_RoomStyle" Association="Self.FK_Comment_RoomStyle">
+      <End Role="Room" EntitySet="Room" />
+      <End Role="Comment" EntitySet="Comment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Equipment_EquipmentCatergory" Association="Self.FK_Equipment_EquipmentCatergory">
+      <End Role="EquipmentCatergory" EntitySet="EquipmentCatergory" />
+      <End Role="Equipment" EntitySet="Equipment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EquipmentReference_Equipment" Association="Self.FK_EquipmentReference_Equipment">
+      <End Role="Equipment" EntitySet="Equipment" />
+      <End Role="EquipmentReference" EntitySet="EquipmentReference" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EquipmentReference_Room" Association="Self.FK_EquipmentReference_Room">
+      <End Role="Room" EntitySet="Room" />
+      <End Role="EquipmentReference" EntitySet="EquipmentReference" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ImageReference_Image" Association="Self.FK_ImageReference_Image">
+      <End Role="Image" EntitySet="Image" />
+      <End Role="ImageReference" EntitySet="ImageReference" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ImageReference_Room" Association="Self.FK_ImageReference_Room">
+      <End Role="Room" EntitySet="Room" />
+      <End Role="ImageReference" EntitySet="ImageReference" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Member_City" Association="Self.FK_Member_City">
+      <End Role="City" EntitySet="City" />
+      <End Role="Member" EntitySet="Member" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Order_Member" Association="Self.FK_Order_Member">
+      <End Role="Member" EntitySet="Member" />
+      <End Role="Order" EntitySet="Order" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Order_OrderStatus" Association="Self.FK_Order_OrderStatus">
+      <End Role="OrderStatus" EntitySet="OrderStatus" />
+      <End Role="Order" EntitySet="Order" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Order_Room" Association="Self.FK_Order_Room">
+      <End Role="Room" EntitySet="Room" />
+      <End Role="Order" EntitySet="Order" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderDetails_Discount" Association="Self.FK_OrderDetails_Discount">
+      <End Role="Discount" EntitySet="Discount" />
+      <End Role="OrderDetails" EntitySet="OrderDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderDetails_Order" Association="Self.FK_OrderDetails_Order">
+      <End Role="Order" EntitySet="Order" />
+      <End Role="OrderDetails" EntitySet="OrderDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderDetails_Payment" Association="Self.FK_OrderDetails_Payment">
+      <End Role="Payment" EntitySet="Payment" />
+      <End Role="OrderDetails" EntitySet="OrderDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Room_RoomStatus" Association="Self.FK_Room_RoomStatus">
+      <End Role="RoomStatus" EntitySet="RoomStatus" />
+      <End Role="Room" EntitySet="Room" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

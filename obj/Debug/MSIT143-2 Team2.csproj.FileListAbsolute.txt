@@ -1,0 +1,107 @@
+C:\Users\Student\Downloads\MSIT143-2 Team2-20220826T071636Z-001\MSIT143-2 Team2\bin\Debug\MSIT143-2 Team2.exe.config
+C:\Users\Student\Downloads\MSIT143-2 Team2-20220826T071636Z-001\MSIT143-2 Team2\bin\Debug\MSIT143-2 Team2.exe
+C:\Users\Student\Downloads\MSIT143-2 Team2-20220826T071636Z-001\MSIT143-2 Team2\bin\Debug\MSIT143-2 Team2.pdb
+C:\Users\Student\Downloads\MSIT143-2 Team2-20220826T071636Z-001\MSIT143-2 Team2\obj\Debug\MSIT143-2 Team2.csprojAssemblyReference.cache
+C:\Users\Student\Downloads\MSIT143-2 Team2-20220826T071636Z-001\MSIT143-2 Team2\obj\Debug\MSIT143_2_Team2.訂單管理.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2-20220826T071636Z-001\MSIT143-2 Team2\obj\Debug\MSIT143_2_Team2.MainForm.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2-20220826T071636Z-001\MSIT143-2 Team2\obj\Debug\MSIT143_2_Team2.Properties.Resources.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2-20220826T071636Z-001\MSIT143-2 Team2\obj\Debug\MSIT143-2 Team2.csproj.GenerateResource.cache
+C:\Users\Student\Downloads\MSIT143-2 Team2-20220826T071636Z-001\MSIT143-2 Team2\obj\Debug\MSIT143-2 Team2.csproj.CoreCompileInputs.cache
+C:\Users\Student\Downloads\MSIT143-2 Team2-20220826T071636Z-001\MSIT143-2 Team2\obj\Debug\MSIT143-2 Team2.exe
+C:\Users\Student\Downloads\MSIT143-2 Team2-20220826T071636Z-001\MSIT143-2 Team2\obj\Debug\MSIT143-2 Team2.pdb
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\bin\Debug\MSIT143-2 Team2.exe.config
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\bin\Debug\MSIT143-2 Team2.exe
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\bin\Debug\MSIT143-2 Team2.pdb
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\obj\Debug\MSIT143_2_Team2.訂單管理.resources
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\obj\Debug\MSIT143_2_Team2.MainForm.resources
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\obj\Debug\MSIT143_2_Team2.Properties.Resources.resources
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\obj\Debug\MSIT143-2 Team2.csproj.GenerateResource.cache
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\obj\Debug\MSIT143-2 Team2.csproj.CoreCompileInputs.cache
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\obj\Debug\MSIT143-2 Team2.exe
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\obj\Debug\MSIT143-2 Team2.pdb
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\obj\Debug\MSIT143_2_Team2.FirstPage.resources
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\obj\Debug\MSIT143_2_Team2.找好房.resources
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\bin\Debug\EntityFramework.dll
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\bin\Debug\EntityFramework.SqlServer.dll
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\bin\Debug\EntityFramework.xml
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\bin\Debug\EntityFramework.SqlServer.xml
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\bin\Debug\zh-Hant\EntityFramework.resources.dll
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\obj\Debug\MSIT143_2_Team2.城市房間.resources
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\obj\Debug\MSIT143-2 Team2.csproj.CopyComplete
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\obj\Debug\MSIT143_2_Team2.登入建立.resources
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\obj\Debug\MSIT143_2_Team2.註冊會員.resources
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\obj\Debug\MSIT143-2 Team2.csproj.AssemblyReference.cache
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\obj\Debug\PJ.MenberChange.resources
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\obj\Debug\PJ.MenberView.resources
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\obj\Debug\MSIT143_2_Team2.折扣.resources
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\obj\Debug\MSIT143_2_Team2.折扣maintaince.resources
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\obj\Debug\房源管理.Form1.resources
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\obj\Debug\MSIT143_2_Team2.下訂單.resources
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\obj\Debug\prjGroup2_Midterm_ver0902.Modify.resources
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\obj\Debug\MSIT143_2_Team2.Form2.resources
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\obj\Debug\MSIT143_Topic_0831.Form1.resources
+E:\99.MSITI43-民宿訂房專題\MSIT143-2 Team2\obj\Debug\prjGroup2_Midterm_ver0902.ActivityDisplay.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2\obj\Debug\MSIT143-2 Team2.csprojAssemblyReference.cache
+C:\Users\Student\Downloads\MSIT143-2 Team2\obj\Debug\prjGroup2_Midterm_ver0902.ActivityDisplay.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2\obj\Debug\MSIT143_2_Team2.FirstPage.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2\obj\Debug\房源管理.Form1.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2\obj\Debug\MSIT143_2_Team2.Form2.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2\obj\Debug\PJ.MenberChange.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2\obj\Debug\PJ.MenberView.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2\obj\Debug\prjGroup2_Midterm_ver0902.Modify.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2\obj\Debug\MSIT143_2_Team2.下訂單.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2\obj\Debug\MSIT143_2_Team2.折扣.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2\obj\Debug\MSIT143_2_Team2.折扣maintaince.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2\obj\Debug\MSIT143_2_Team2.登入建立.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2\obj\Debug\MSIT143_2_Team2.城市房間.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2\obj\Debug\MSIT143_2_Team2.找好房.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2\obj\Debug\MSIT143_2_Team2.訂單管理.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2\obj\Debug\MSIT143_2_Team2.MainForm.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2\obj\Debug\MSIT143_2_Team2.Properties.Resources.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2\obj\Debug\MSIT143_2_Team2.註冊會員.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2\obj\Debug\MSIT143_Topic_0831.Form1.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2\obj\Debug\MSIT143-2 Team2.csproj.GenerateResource.cache
+C:\Users\Student\Downloads\MSIT143-2 Team2\obj\Debug\MSIT143-2 Team2.csproj.CoreCompileInputs.cache
+C:\Users\Student\Downloads\MSIT143-2 Team2\obj\Debug\MSIT143-2 Team2.exe
+C:\Users\Student\Downloads\MSIT143-2 Team2\obj\Debug\MSIT143-2 Team2.pdb
+C:\Users\Student\Downloads\MSIT143-2 Team2\bin\Debug\MSIT143-2 Team2.exe.config
+C:\Users\Student\Downloads\MSIT143-2 Team2\bin\Debug\MSIT143-2 Team2.exe
+C:\Users\Student\Downloads\MSIT143-2 Team2\bin\Debug\MSIT143-2 Team2.pdb
+C:\Users\Student\Downloads\MSIT143-2 Team2\bin\Debug\EntityFramework.dll
+C:\Users\Student\Downloads\MSIT143-2 Team2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Student\Downloads\MSIT143-2 Team2\bin\Debug\EntityFramework.xml
+C:\Users\Student\Downloads\MSIT143-2 Team2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Student\Downloads\MSIT143-2 Team2\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\Student\Downloads\MSIT143-2 Team2\obj\Debug\MSIT143-2 Team2.csproj.CopyComplete
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\bin\Debug\MSIT143-2 Team2.exe.config
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\bin\Debug\MSIT143-2 Team2.exe
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\bin\Debug\MSIT143-2 Team2.pdb
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\bin\Debug\EntityFramework.dll
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\bin\Debug\EntityFramework.xml
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\obj\Debug\MSIT143-2 Team2.csprojAssemblyReference.cache
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\obj\Debug\prjGroup2_Midterm_ver0902.ActivityDisplay.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\obj\Debug\MSIT143_2_Team2.FirstPage.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\obj\Debug\房源管理.Form1.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\obj\Debug\MSIT143_2_Team2.Form2.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\obj\Debug\PJ.MenberChange.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\obj\Debug\PJ.MenberView.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\obj\Debug\prjGroup2_Midterm_ver0902.Modify.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\obj\Debug\MSIT143_2_Team2.下訂單.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\obj\Debug\MSIT143_2_Team2.折扣.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\obj\Debug\MSIT143_2_Team2.折扣maintaince.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\obj\Debug\MSIT143_2_Team2.登入建立.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\obj\Debug\MSIT143_2_Team2.城市房間.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\obj\Debug\MSIT143_2_Team2.找好房.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\obj\Debug\MSIT143_2_Team2.訂單管理.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\obj\Debug\MSIT143_2_Team2.MainForm.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\obj\Debug\MSIT143_2_Team2.Properties.Resources.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\obj\Debug\MSIT143_2_Team2.註冊會員.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\obj\Debug\MSIT143_Topic_0831.Form1.resources
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\obj\Debug\MSIT143-2 Team2.csproj.GenerateResource.cache
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\obj\Debug\MSIT143-2 Team2.csproj.CoreCompileInputs.cache
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\obj\Debug\MSIT143-2 Team2.csproj.CopyComplete
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\obj\Debug\MSIT143-2 Team2.exe
+C:\Users\Student\Downloads\MSIT143-2 Team2_折扣bug修復\obj\Debug\MSIT143-2 Team2.pdb
